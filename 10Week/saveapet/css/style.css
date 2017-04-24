@@ -1,0 +1,71 @@
+
+
+/* Style for NavBar */
+
+.navbar {
+  height: 100px;
+  background-color: white;
+  margin-bottom: none;
+  /*background-image: url(../img/pawprint.gif);
+  background-size: cover;*/
+}
+
+.navbar-header img {
+  height: 75px;
+}
+
+.navbar-nav {
+  font-family: "dosis", sans-serif;
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+/* Style for my Hero Section */
+
+#hero {
+  background-image: url(../img/puppyhero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  margin-top: -20px;
+  text-align: center;
+  align-items: flex-end;
+}
+
+#hero h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 60px;
+  padding-top: 440px;
+  color: black;
+}
+
+/* Style for my About Section */
+
+#about {
+  background-color: lightblue;
+  height: 600px, auto;
+  text-align: center;
+  align-items: center;
+}
+
+#about img {
+  height: 600px;
+  padding: 120px 0 100px 0;
+}
+
+#about h1 {
+  padding: 100px 0 20px 0;
+  font-family: "dosis", sans-serif;
+  font-size: 72px;
+  color: black;
+}
+
+#about p {
+  font-family: "raleway", sans-serif;
+  font-size: 24px;
+}
+
+.quote {
+  font-family: 'Love Ya Like A Sister', cursive !important;
+  padding-top: 10px;
+}
