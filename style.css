@@ -1,4 +1,16 @@
 /* You can style your landing page here */
+
+body {
+  background-color: lightgrey;
+}
+
+
+section {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+}
+
 h1 {
   color: blue;
 }

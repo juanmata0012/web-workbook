@@ -1,0 +1,188 @@
+
+/* This is Styling for the NavBar */
+
+.navbar {
+  height: 100px;
+}
+
+.navbar-header img {
+  height: 75px;
+}
+
+.navbar-nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.navbar-nav .dropdown li {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+/* This is Stylling for the Hero */
+
+#hero {
+  background-image: url(../img/homeHero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  margin-top: 80px;
+  align-items: flex-end;
+  font-family: 'Spectral SC', serif;
+  color: black;
+}
+
+.hero-img h1 {
+  font-size: 50px;
+  padding: 20px 0px 10px 30px;
+  text-shadow: 2px 2px 8px white;
+}
+
+.hero-img h2 {
+  font-size: 40px;
+  padding: 0px 0px 10px 60px;
+  text-shadow: 2px 2px 8px white;
+}
+
+/* This is Styling for the About Section*/
+
+.about {
+  height: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.about p {
+  padding: 50px 20px;
+}
+
+.about .img1 {
+  height: 450px;
+  width: 100%;
+  /*margin-left: 15px;*/
+}
+
+.about .img2 {
+  height: 450px;
+  width: 100%;
+  /*margin-left: -30px;*/
+}
+
+.about1 {
+  background-color: lightgrey;
+}
+
+.about2 {
+  background-color: navy;
+  color: white;
+  font-family: "Noto Sans", serif;
+}
+
+/* This is the styling for the Footer AKA Contact Me */
+
+#contact {
+  width: 100%;
+  height: 400px;
+  background-color: #F8F8F8;
+  text-align: center;
+  font-family: "josefin sans", sans-serif;
+}
+
+#contact h1 {
+  font-size: 48px;
+  padding-top: 30px;
+  color: grey;
+  /*padding-bottom: 15px;*/
+}
+
+#contact h3 {
+  padding-top: 15px;
+  margin-bottom: 40px;
+  color: grey;
+  /*padding-bottom: 15px;*/
+}
+
+#contact hr {
+  width: 120px;
+  border: 4px solid orange;
+  margin-bottom: 30px;
+}
+
+#contact a {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.contact-me {
+    margin-bottom: 30px;
+}
+
+#contact i:hover {
+  color: orange;
+
+}
+
+/* This is for tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Media for Nav */
+
+  .navbar-header img {
+    height: 40px;
+  }
+
+  .navbar {
+    background: white;
+  }
+
+  .navbar-nav {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  /* Media for About me */
+  .about {
+    height: auto;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+
+  /* Media for nav */
+
+  .navbar {
+    height: auto;
+    background-color: white;
+  }
+
+  .navbar-header img {
+    height: 35px;
+  }
+
+  /* Media for Hero */
+
+  #hero {
+    margin-top: 40px;
+  }
+
+}
+
+/* This is to take away gutters */
+
+/*.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}*/
+
+.no-gutter > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
